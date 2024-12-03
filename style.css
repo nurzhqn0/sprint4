@@ -1,0 +1,21 @@
+body {
+  background-color: #f8f9fa;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: none; /* Forms are hidden by default */
+}
+.form-container.active {
+  display: block; /* Active form is displayed */
+}
